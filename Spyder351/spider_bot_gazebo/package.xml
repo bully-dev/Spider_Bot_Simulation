@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>spider_bot_gazebo</name>
+  <version>0.0.0</version>
+  <description>The spider_bot_gazebo package</description>
+
+  <maintainer email="user@todo.todo">user</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>spider_bot_control</build_depend>
+  <build_depend>spider_bot_description</build_depend>
+  <build_export_depend>spider_bot_control</build_export_depend>
+  <build_export_depend>spider_bot_description</build_export_depend>
+  <exec_depend>spider_bot_control</exec_depend>
+  <exec_depend>spider_bot_description</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
